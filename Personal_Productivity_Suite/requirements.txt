@@ -1,0 +1,9 @@
+no external libraries required
+No external dependencies required
+
+How to use the project:
+
+1. Run main.py
+2. Choose option from menu
+3. Use notes, calculator, timer, etc.
+4. Data is saved automatically

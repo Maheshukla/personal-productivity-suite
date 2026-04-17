@@ -1,0 +1,10 @@
+User Guide:
+
+1. Run main.py
+2. Select option from menu
+3. Use Notes, Calculator, Timer, etc.
+4. Data is saved automatically
+
+Notes:
+- Use valid input
+- Files are organized based on type

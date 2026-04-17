@@ -1,0 +1,10 @@
+Example Usage:
+
+Notes:
+- Add note → Enter text → Saved automatically
+
+Calculator:
+- Enter two numbers → Choose operation → Result shown
+
+File Organizer:
+- Enter folder path → Files sorted by extension

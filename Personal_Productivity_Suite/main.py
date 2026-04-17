@@ -1,8 +1,4 @@
-import notes
-import calculator
-import timer
-import unit_converter
-import file_organizer
+from modules import notes, calculator, timer, unit_converter, file_organizer
 
 notes.load_notes()
 
