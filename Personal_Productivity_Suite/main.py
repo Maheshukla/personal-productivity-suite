@@ -1,20 +1,39 @@
-num1 = int(input("Pahla number likho: "))
-num2 = int(input("Dusra number likho: "))
+import notes
+import calculator
+import timer
+import unit_converter
+import file_organizer
 
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Devide ")
+notes.load_notes()
 
-choice = input("Choose Option: ")
+while True:
+    print("\nMAIN MENU")
+    print("1. Notes")
+    print("2. Calculator")
+    print("3. Timer")
+    print("4. Unit Converter")
+    print("5. File Organizer")
+    print("6. Exit")
 
-if choice == 1:
-    print("Result:", num1 + num2)
-elif choice ==2:
-    print("Result:", num1 - num2)
-elif choice == 3:
-    print("Result:", num1 * num2)
-elif choice == 4:
-    print("Result:", num1 * num2)
-else:
-    print("Invalid Choice")
+    choice = input("Choose: ")
+
+    if choice == "1":
+        notes.notes_menu()
+
+    elif choice == "2":
+        calculator.calculator()
+
+    elif choice == "3":
+        timer.timer()
+
+    elif choice == "4":
+        unit_converter.converter()
+
+    elif choice == "5":
+        file_organizer.organize()
+
+    elif choice == "6":
+        break
+
+    else:
+        print("Invalid choice")
