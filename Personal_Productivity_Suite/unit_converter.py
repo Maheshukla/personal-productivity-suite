@@ -13,7 +13,7 @@ def converter():
         try:
             value = float(input("Enter value: "))
         except:
-            print("Invalid input ❌")
+            print("Invalid input")
             continue
 
         if choice == "1":
